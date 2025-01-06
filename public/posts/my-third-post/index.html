@@ -1,0 +1,315 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html
+  class="not-ready lg:text-base"
+  style="--bg: #faf8f1"
+  lang="en-us"
+  dir="ltr"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  
+  <title>My Third Post - My New Hugo Site</title>
+
+  
+  <meta name="theme-color" />
+
+  
+  
+  
+  
+  <meta name="description" content="Heading
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis dolor molestie, condimentum nisi sit amet, viverra tortor. Suspendisse quis malesuada lectus, id feugiat quam. Quisque leo ex, elementum non dui eu, congue venenatis nisl. Donec tincidunt dictum purus et dapibus. Proin ac dui eget sem mattis accumsan. Phasellus in commodo tellus, vitae cursus lacus. Maecenas scelerisque id ipsum vitae varius. Pellentesque quis sem nec velit volutpat congue eu in risus. Nullam dignissim nec urna quis aliquet. Morbi tristique commodo pharetra. Vestibulum ut urna pulvinar lectus hendrerit vehicula." />
+  <meta name="author" content="My New Hugo Site" />
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="preload stylesheet" as="style" href="http://localhost:1313/main.min.css" />
+
+  
+  
+  
+  
+  
+  <link rel="preload" as="image" href="http://localhost:1313/theme.png" />
+
+  
+  
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  <script
+    defer
+    src="http://localhost:1313/highlight.min.js"
+    onload="hljs.initHighlightingOnLoad();"
+  ></script>
+  
+
+  
+  
+  
+
+  
+  <link
+    rel="icon"
+    href="http://localhost:1313/favicon.ico"
+  />
+  <link
+    rel="apple-touch-icon"
+    href="http://localhost:1313/apple-touch-icon.png"
+  />
+
+  
+  <meta name="generator" content="Hugo 0.140.2">
+
+  
+  
+  
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header class="mx-auto flex h-[4.5rem] max-w-[--w] px-8 lg:justify-center">
+  <div class="relative z-50 ltr:mr-auto rtl:ml-auto flex items-center">
+    <a class="-translate-y-[1px] text-2xl font-medium" href="http://localhost:1313/"
+      >My New Hugo Site</a
+    >
+    <div
+      class="btn-dark text-[0] ltr:ml-4 rtl:mr-4 h-6 w-6 shrink-0 cursor-pointer [background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)] dark:[background-position:right]"
+      role="button"
+      aria-label="Dark"
+    ></div>
+  </div>
+
+  <div
+    class="btn-menu relative z-50 ltr:-mr-8 rtl:-ml-8 flex h-[4.5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+    role="button"
+    aria-label="Menu"
+  ></div>
+
+  
+
+  <script>
+    
+    const htmlClass = document.documentElement.classList;
+    setTimeout(() => {
+      htmlClass.remove('not-ready');
+    }, 10);
+
+    
+    const btnMenu = document.querySelector('.btn-menu');
+    btnMenu.addEventListener('click', () => {
+      htmlClass.toggle('open');
+    });
+
+    
+    const metaTheme = document.querySelector('meta[name="theme-color"]');
+    const lightBg = '#faf8f1'.replace(/"/g, '');
+    const setDark = (isDark) => {
+      metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
+      htmlClass[isDark ? 'add' : 'remove']('dark');
+      localStorage.setItem('dark', isDark);
+    };
+
+    
+    const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+    if (htmlClass.contains('dark')) {
+      setDark(true);
+    } else {
+      const darkVal = localStorage.getItem('dark');
+      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+    }
+
+    
+    darkScheme.addEventListener('change', (event) => {
+      setDark(event.matches);
+    });
+
+    
+    const btnDark = document.querySelector('.btn-dark');
+    btnDark.addEventListener('click', () => {
+      setDark(localStorage.getItem('dark') !== 'true');
+    });
+  </script>
+
+  <div
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+  >
+    
+    
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-10 rtl:space-x-reverse">
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/courses/"
+        >Courses</a
+      >
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/posts/"
+        >Posts</a
+      >
+      
+      <a
+        class="block text-center text-xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/speaking/"
+        >Speaking</a
+      >
+      
+    </nav>
+    
+
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-[--w] px-8 pb-16 pt-14 dark:prose-invert"
+    >
+      
+
+<article>
+  <header class="mb-14">
+    <h1 class="!my-0 pb-2.5">My Third Post</h1>
+
+    
+    <div class="text-xs antialiased opacity-60">
+      
+      <time>Oct 21, 2024</time>
+      
+      
+      
+      
+    </div>
+    
+  </header>
+
+  <section><h2 id="heading">Heading</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis dolor molestie, condimentum nisi sit amet, viverra tortor. Suspendisse quis malesuada lectus, id feugiat quam. Quisque leo ex, elementum non dui eu, congue venenatis nisl. Donec tincidunt dictum purus et dapibus. Proin ac dui eget sem mattis accumsan. Phasellus in commodo tellus, vitae cursus lacus. Maecenas scelerisque id ipsum vitae varius. Pellentesque quis sem nec velit volutpat congue eu in risus. Nullam dignissim nec urna quis aliquet. Morbi tristique commodo pharetra. Vestibulum ut urna pulvinar lectus hendrerit vehicula.</p>
+<h2 id="heading-1">Heading</h2>
+<p>Donec non sem egestas, tincidunt nunc at, mollis est. Ut maximus dolor mi, quis mollis lacus lacinia vel. Vestibulum vel nunc eu purus tincidunt mollis ut id lorem. Mauris a accumsan ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec rutrum, erat non suscipit mattis, magna massa pulvinar diam, nec sagittis urna nisi vel lorem. Praesent nec venenatis dolor. Suspendisse potenti. Aenean ac ante dignissim, bibendum odio ut, dapibus risus. Nullam tincidunt vel est quis bibendum. Nam eget egestas lorem. Nulla id luctus turpis. Cras mattis varius ipsum, a imperdiet lacus consectetur vitae. Sed vestibulum nisl odio, dapibus condimentum tellus luctus a. Donec consequat mattis orci, vel consequat purus placerat eu. Nulla consequat neque in ipsum finibus pellentesque.</p>
+<h2 id="heading-2">Heading</h2>
+<p>Morbi venenatis molestie ullamcorper. In imperdiet feugiat nisi sed tempor. Phasellus accumsan urna dui, suscipit efficitur magna porta at. Donec sit amet ornare felis. Quisque et lorem a leo auctor maximus. Fusce maximus, magna eu bibendum lobortis, ligula turpis dapibus massa, eget venenatis ipsum purus posuere arcu. In consectetur consectetur neque.</p>
+<h2 id="heading-3">Heading</h2>
+<p>Maecenas ac ipsum faucibus nibh elementum pharetra. Maecenas tincidunt quam justo, at tempus nulla feugiat eu. Mauris hendrerit tortor turpis, vel feugiat leo congue ac. Vivamus malesuada risus urna, eu tincidunt ligula hendrerit et. Proin egestas consequat nulla ac lobortis. Praesent ullamcorper mi sed erat dapibus accumsan. Pellentesque tincidunt nisi ut libero condimentum consequat et nec quam.</p>
+<h2 id="heading-new">Heading (new)</h2>
+<p>These were my changes!!</p>
+</section>
+
+  
+  
+
+  
+  
+  
+  
+  <nav
+    class="mt-24 flex overflow-hidden rounded-xl bg-black/[3%] text-lg !leading-[1.2] *:flex *:w-1/2 *:items-center *:p-5 *:font-medium *:no-underline dark:bg-white/[8%] [&>*:hover]:bg-black/[2%] dark:[&>*:hover]:bg-white/[3%]"
+  >
+    
+    <a class="ltr:pr-3 rtl:pl-3" href="http://localhost:1313/posts/my-first-post/"
+      ><span class="ltr:mr-1.5 rtl:ml-1.5">←</span><span>My First Post</span></a
+    >
+    
+    
+    <a class="ltr:ml-auto rtl:mr-auto justify-end pl-3" href="http://localhost:1313/posts/my-second-post/"
+      ><span>My Second Post</span><span class="ltr:ml-1.5 rtl:mr-1.5">→</span></a
+    >
+    
+  </nav>
+  
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+</article>
+
+
+    </main>
+
+    <footer
+  class="mx-auto flex h-[4.5rem] max-w-[--w] items-center px-8 text-xs uppercase tracking-wider opacity-60"
+>
+  <div class="mr-auto">
+  
+    &copy; 2025
+    <a class="link" href="http://localhost:1313/">My New Hugo Site</a>
+  
+  </div>
+  <a class="link mx-6" href="https://gohugo.io/" rel="noopener" target="_blank"
+    >powered by hugo️️</a
+  >️
+  <a
+    class="link"
+    href="https://github.com/nanxiaobei/hugo-paper"
+    rel="noopener"
+    target="_blank"
+    >hugo-paper</a
+  >
+</footer>
+
+  </body>
+</html>

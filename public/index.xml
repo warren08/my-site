@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jan 2025 09:03:02 +1100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Mon, 06 Jan 2025 09:03:02 +1100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis eros sit amet mi vestibulum, convallis pulvinar risus molestie. Maecenas lobortis ullamcorper nisi a aliquet. Phasellus in risus a ante posuere vulputate nec sed libero. Aliquam sed fringilla eros, sit amet tincidunt dolor. Proin vitae scelerisque mauris, sed efficitur metus. Suspendisse eget nunc mauris. Duis porta ut odio quis ullamcorper. Fusce nec metus lacinia, commodo lacus non, dapibus purus. Suspendisse posuere justo eros, vitae fermentum nisl eleifend quis. Nullam sapien diam, accumsan in sodales malesuada, scelerisque vel libero. Sed aliquet justo sed libero lacinia fringilla. Proin id felis nec ipsum semper auctor convallis et neque. Aliquam quam diam, condimentum ac tellus ut, fermentum pharetra quam. Cras pretium sapien fringilla libero gravida laoreet. Donec sagittis, sem ut vehicula bibendum, augue neque varius mi, eget semper ante tellus id nisi. Donec sed scelerisque ipsum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Third Post</title>
+      <link>http://localhost:1313/posts/my-third-post/</link>
+      <pubDate>Mon, 21 Oct 2024 13:54:57 +1100</pubDate>
+      <guid>http://localhost:1313/posts/my-third-post/</guid>
+      <description>&lt;h2 id=&#34;heading&#34;&gt;Heading&lt;/h2&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis dolor molestie, condimentum nisi sit amet, viverra tortor. Suspendisse quis malesuada lectus, id feugiat quam. Quisque leo ex, elementum non dui eu, congue venenatis nisl. Donec tincidunt dictum purus et dapibus. Proin ac dui eget sem mattis accumsan. Phasellus in commodo tellus, vitae cursus lacus. Maecenas scelerisque id ipsum vitae varius. Pellentesque quis sem nec velit volutpat congue eu in risus. Nullam dignissim nec urna quis aliquet. Morbi tristique commodo pharetra. Vestibulum ut urna pulvinar lectus hendrerit vehicula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Second Post</title>
+      <link>http://localhost:1313/posts/my-second-post/</link>
+      <pubDate>Mon, 21 Oct 2024 13:54:51 +1100</pubDate>
+      <guid>http://localhost:1313/posts/my-second-post/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve updated this on my local machine and then committed the changes to GitHub.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
