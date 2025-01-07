@@ -1,7 +1,7 @@
 baseURL = 'https://my-site.site1.cyou/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'roxo-hugo'
+theme = 'paper'
 [menu]
   [[menu.main]]
     identifier = "about"
